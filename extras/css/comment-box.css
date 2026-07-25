@@ -15,7 +15,8 @@
 
 .custom-comment-box textarea {
   box-sizing: border-box;
-  width: 100%;
+  # width: 100%;
+  max-width: var(--content-max-width);
   padding: 10px;
   border: 1px solid var(--theme-popup-border);
   background-color: var(--theme-popup-bg);

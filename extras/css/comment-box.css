@@ -1,7 +1,10 @@
 .custom-comment-box {
-  margin-inline-start: auto;
-  margin-inline-end: auto;
   margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: var(--content-max-width);
+
   padding-top: 20px;
   border-top: 1px solid var(--table-border-color);
   display: flex;
@@ -17,8 +20,7 @@
 
 .custom-comment-box textarea {
   box-sizing: border-box;
-  # width: 100%;
-  max-width: var(--content-max-width);
+  width: 100%;
   padding: 10px;
   border: 1px solid var(--theme-popup-border);
   background-color: var(--theme-popup-bg);

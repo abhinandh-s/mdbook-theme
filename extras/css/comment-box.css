@@ -1,4 +1,6 @@
 .custom-comment-box {
+  margin-inline-start: auto;
+  margin-inline-end: auto;
   margin-top: 50px;
   padding-top: 20px;
   border-top: 1px solid var(--table-border-color);
@@ -17,10 +19,6 @@
   box-sizing: border-box;
   # width: 100%;
   max-width: var(--content-max-width);
-
-    margin-inline-start: auto;
-    margin-inline-end: auto;
-
   padding: 10px;
   border: 1px solid var(--theme-popup-border);
   background-color: var(--theme-popup-bg);

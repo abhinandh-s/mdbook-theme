@@ -1,13 +1,13 @@
-.callout-case-law {
-  border-left: 4px solid #8b5cf6;
-  background-color: rgba(139, 92, 246, 0.08);
-  padding: 0.8em 1.2em;
-  border-radius: 4px;
+/* Custom CSS for [!CASE LAW] */
+
+:root {
+  --blockquote-case-law-color: #8b5cf6; 
 }
 
-/* Optional header styling */
-.callout-case-law p:first-child strong:first-child {
-  color: #6d28d9;
-  display: block;
-  margin-bottom: 0.4em;
+.blockquote-tag-case-law {
+  border-inline-start-color: var(--blockquote-case-law-color);
+}
+
+.blockquote-tag-case-law > .blockquote-tag-title {
+  color: var(--blockquote-case-law-color);
 }

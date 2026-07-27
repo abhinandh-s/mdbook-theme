@@ -1,9 +1,5 @@
 /* Custom CSS for [!CASE LAW] */
 
-:root {
-  --blockquote-case-law-color: #8b5cf6; 
-}
-
 .blockquote-tag-case-law {
   border-inline-start-color: var(--blockquote-case-law-color);
 }

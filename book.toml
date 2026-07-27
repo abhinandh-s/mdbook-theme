@@ -5,7 +5,7 @@ src = "src"
 title = "Abhi's guide to ..."
 
 [output.html]
-site-url = "/md-book-template/"
+site-url = "/mdbook-theme/"
 additional-css = [
   "extras/css/comment-box.css",
   "extras/css/custom-callouts.css"

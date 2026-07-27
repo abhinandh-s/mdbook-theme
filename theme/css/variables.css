@@ -85,6 +85,9 @@
 
     /* indentation line in side bar */
     --sidebar-header-border-color: #e05060;
+
+    /* extras */
+    --blockquote-case-law-color: #e05060; 
 }
 
 .rust {

@@ -78,7 +78,8 @@ term B
 > [!CAUTION]
 > Information about potential issues that require caution.
 
-
+> [!CUSTOM CALLOUTS]
+> Information about potential issues that require caution.
 
 
 

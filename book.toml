@@ -6,5 +6,11 @@ title = "Abhi's guide to ..."
 
 [output.html]
 site-url = "/md-book-template/"
-additional-css = ["extras/css/comment-box.css"]
-additional-js = ["extras/js/comment-box.js"]
+additional-css = [
+  "extras/css/comment-box.css",
+  "extras/css/custom-callouts.css"
+]
+additional-js = [
+  "extras/js/comment-box.js",
+  "extras/js/custom-callouts.js"
+]

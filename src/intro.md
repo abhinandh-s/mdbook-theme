@@ -78,10 +78,10 @@ term B
 > [!CAUTION]
 > Information about potential issues that require caution.
 
-> [!CUSTOM CALLOUTS]
+> [!Custom Callout]
 > Information about potential issues that require caution.
 
-> [!CASE LAW]
+> [!Case Law]
 > Information about potential issues that require caution.
 
 

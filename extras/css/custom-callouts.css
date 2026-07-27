@@ -11,3 +11,15 @@
 .blockquote-tag-case-law > .blockquote-tag-title {
   color: var(--blockquote-case-law-color);
 }
+
+.fa-svg-callout svg {
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+    margin-bottom: -0.1em;
+}
+
+.blockquote-tag-title .fa-svg-callout {
+    fill: currentColor;
+    margin-right: 8px;
+}

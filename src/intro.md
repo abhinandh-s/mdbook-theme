@@ -81,6 +81,8 @@ term B
 > [!CUSTOM CALLOUTS]
 > Information about potential issues that require caution.
 
+> [!CASE LAW]
+> Information about potential issues that require caution.
 
 
 

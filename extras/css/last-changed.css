@@ -26,14 +26,15 @@ footer#last-change {
     border-top: 1.5px solid var(--fg);
     font-size: 0.85em;
     color: var(--fg);
-    background-color: var(--sidebar-bg);
+    background-color: var(--links);
     font-family: monospace;
     text-align: center;
 }
 
 /* Style the commit link */
 #last-change a {
-    color: #4183c4;
+    color: var(--links);
+    background-color: var(--sidebar-bg);
     text-decoration: none;
 }
 
@@ -43,5 +44,7 @@ footer#last-change {
 
 /* Style the time element */
 #last-change time {
+    color: var(--links);
+    background-color: var(--sidebar-bg);
     font-weight: 500;
 }

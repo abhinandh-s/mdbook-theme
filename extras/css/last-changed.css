@@ -21,25 +21,17 @@ footer#last-change {
 
 #last-change {
     display: inline-block;
-    margin-top: 2rem;
-    padding: 0.75rem 1.25rem;
-    border-radius: 4px;
     background-color: red;
     color: white;
     font-family: monospace;
     font-size: 0.85em;
     text-align: center;
-    border: 1px solid #cc0000;
-    line-height: 2;               /* Increase line height */
 }
 
 #last-change time,
 #last-change a {
     background-color: black;
     color: white;
-    padding: 0.15rem 0.4rem;
-    border-radius: 3px;
     text-decoration: none;
     font-weight: normal;
-    /* Remove display: inline-block if you want */
 }

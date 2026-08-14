@@ -1,4 +1,5 @@
-footer {
+/* important: no space in between */
+footer#last-change {
   font-size: 0.8em;
   text-align: center;
   border-top: 1px solid black;

@@ -24,8 +24,14 @@ jobs:
     runs-on: ubuntu-latest
     env:
       MDBOOK_VERSION: 0.5.4
+      LAST_CHANGED_VERSION: 0.4.0
     steps:
       - uses: actions/checkout@v4
+
+      - name: Install Last Changed
+        run: |
+          curl -sSL https://github.com/badboy/mdbook-last-changed/releases/download/v${LAST_CHANGED_VERSION}/mdbook-last-changed-v${LAST_CHANGED_VERSION}-x86_64-unknown-linux-gnu.tar.gz | tar -xz --directory=bin
+
       - name: Install mdBook
         run: |
           mkdir -p bin

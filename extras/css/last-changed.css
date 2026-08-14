@@ -1,6 +1,7 @@
 #last-change {
   display: inline-flex;
   align-items: center;
+  text-align: center;
   gap: 8px;
   font-size: 0.95rem;
   color: var(--fg);

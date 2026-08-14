@@ -10,11 +10,12 @@ git-repository-url = "https://github.com/abhinandh-s/mdbook-theme"
 
 additional-css = [
   "extras/css/comment-box.css",
-  "extras/css/custom-callouts.css"
+  "extras/css/custom-callouts.css",
+  "extras/css/last-changed.css",
 ]
 additional-js = [
   "extras/js/comment-box.js",
-  "extras/js/custom-callouts.js"
+  "extras/js/custom-callouts.js",
 ]
 
 [preprocessor.last-changed]

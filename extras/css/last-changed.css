@@ -18,47 +18,29 @@ footer#last-change {
 }
 */
 
-/* Style the footer container */
 #last-change {
     display: inline-block;
     margin-top: 2rem;
-    padding: 0.75rem 1.25rem;
+    padding: 0.5rem 1rem;          /* Tighter padding */
     border-radius: 4px;
-    background-color: black;
+    background-color: red;
     color: white;
     font-family: monospace;
     font-size: 0.85em;
     text-align: center;
-    border: 1px solid #333;
+    border: 1px solid #cc0000;
 }
 
-/* Highlighted date */
-#last-change time {
-    background-color: red;
-    color: white;
-    padding: 0.1rem 0.4rem;
-    border-radius: 3px;
-    font-weight: bold;
-}
-
-/* Highlighted commit link */
+#last-change time,
 #last-change a {
-    background-color: red;
+    background-color: black;
     color: white;
-    padding: 0.1rem 0.4rem;
+    padding: 0.1rem 0.5rem;        /* Slightly more padding in black boxes */
     border-radius: 3px;
     text-decoration: none;
-    font-weight: bold;
 }
 
 #last-change a:hover {
     text-decoration: underline;
     opacity: 0.9;
-}
-
-/* Keep the static text white on black */
-#last-change span,
-#last-change .text {
-    color: white;
-    background-color: transparent;
 }

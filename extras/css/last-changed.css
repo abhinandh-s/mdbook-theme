@@ -22,29 +22,43 @@ footer#last-change {
 #last-change {
     display: inline-block;
     margin-top: 2rem;
-    padding-top: 1rem;
-    border-top: 1.5px solid var(--fg);
-    font-size: 0.85em;
-    color: var(--fg);
-    background-color: var(--links);
+    padding: 0.75rem 1.25rem;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
     font-family: monospace;
+    font-size: 0.85em;
     text-align: center;
+    border: 1px solid #333;
 }
 
-/* Style the commit link */
+/* Highlighted date */
+#last-change time {
+    background-color: red;
+    color: white;
+    padding: 0.1rem 0.4rem;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+/* Highlighted commit link */
 #last-change a {
-    color: var(--links);
-    background-color: var(--sidebar-bg);
+    background-color: red;
+    color: white;
+    padding: 0.1rem 0.4rem;
+    border-radius: 3px;
     text-decoration: none;
+    font-weight: bold;
 }
 
 #last-change a:hover {
     text-decoration: underline;
+    opacity: 0.9;
 }
 
-/* Style the time element */
-#last-change time {
-    color: var(--links);
-    background-color: var(--sidebar-bg);
-    font-weight: 500;
+/* Keep the static text white on black */
+#last-change span,
+#last-change .text {
+    color: white;
+    background-color: transparent;
 }

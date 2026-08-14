@@ -20,9 +20,9 @@
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background: #22c55e;
+  background: #22c55e; /* green */
   flex-shrink: 0;
-  box-shadow: 0 0 0 3px rgba(34, 197, 94, 0.2);
+  box-shadow: 0 0 0 3px rgba(34, 197, 94, 0.2); /* less opacity green */
 }
 #last-change a {
   display: inline-flex;

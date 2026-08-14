@@ -20,11 +20,14 @@ footer#last-change {
 
 /* Style the footer container */
 #last-change {
+    display: inline-block;
     margin-top: 2rem;
     padding-top: 1rem;
-    border-top: 1px solid #ddd;
+    border-top: 1.5px solid var(--fg);
     font-size: 0.85em;
-    color: #666;
+    color: var(--fg);
+    background-color: var(--sidebar-bg);
+    font-family: monospace;
     text-align: center;
 }
 

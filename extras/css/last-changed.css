@@ -19,7 +19,6 @@ footer#last-change {
 */
 
 
-/* Style the footer container - RED background by default */
 #last-change {
     display: inline-block;
     margin-top: 2rem;
@@ -31,24 +30,16 @@ footer#last-change {
     font-size: 0.85em;
     text-align: center;
     border: 1px solid #cc0000;
-    line-height: 1.8; 
+    line-height: 2;               /* Increase line height */
 }
 
-/* Override date and commit to BLACK background with WHITE text */
 #last-change time,
 #last-change a {
-    display: inline-block;      
     background-color: black;
     color: white;
-    padding: 0.15rem 0.5rem;      
+    padding: 0.15rem 0.4rem;
     border-radius: 3px;
     text-decoration: none;
     font-weight: normal;
-    vertical-align: middle;      
-}
-
-/* Keep link styling */
-#last-change a:hover {
-    text-decoration: underline;
-    opacity: 0.9;
+    /* Remove display: inline-block if you want */
 }

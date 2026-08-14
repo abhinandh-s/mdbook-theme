@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
   linkNode.setAttribute('href', commitUrl);
   linkNode.textContent = commitSha;
 
-  rebuilt.append('Last updated: ', timeNode, '·  commit: ', linkNode);
+  rebuilt.append('Last updated: ', timeNode, '›     commit: ', linkNode);
 
   var slot = document.createElement('div');
   slot.className = 'last-change-slot';

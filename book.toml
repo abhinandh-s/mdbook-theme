@@ -14,9 +14,9 @@ additional-css = [
   "extras/css/last-changed.css",
 ]
 additional-js = [
-  "extras/js/comment-box.js",
-  "extras/js/last-changed.js",
   "extras/js/custom-callouts.js",
+  "extras/js/last-changed.js",
+  "extras/js/comment-box.js",
 ]
 
 [preprocessor.last-changed]

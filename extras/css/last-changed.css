@@ -1,50 +1,32 @@
-/*
-
-<footer id="last-change">Last change: <time datetime="2023-07-09">2023-07-09</time>, commit: <a href="https://github.com/$user/$project/commit/$commit">0000000</a></footer>
-
-[ Last change: 2023-07-09, commit: 0000000 ]
-  ^^^^^^^^^^^^^            ^^^^^^^^
-  
-*/
-
-
-/* important: no space in between */
-/*
-footer#last-change {
-  font-size: 0.8em;
-  text-align: center;
-  border-top: 1px solid black;
-  padding: 5px 0;
-}
-*/
-
-
 #last-change {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  gap: 0.35rem;
-  padding: 0.375rem 0.75rem;
-  border-radius: 9999px;
-  background-color: #f3f4f6;
-  border: 1px solid #e5e7eb;
+  gap: 0.5rem;
+  padding: 0.75rem 0;
+  margin-top: 2rem;
+  border-top: 1px solid #27272a;
   
   font-family: system-ui, sans-serif;
-  font-size: 0.75rem;
-  color: #4b5563;
+  font-size: 0.8125rem;
+  color: #a1a1aa;
 }
 
 #last-change time {
-  font-weight: 600;
-  color: #1f2937;
+  color: #e4e4e7;
 }
 
 #last-change a {
   font-family: monospace;
-  color: #4b5563;
-  text-decoration: underline;
-  text-underline-offset: 2px;
+  font-size: 0.75rem;
+  color: #38bdf8;
+  background-color: #182635;
+  border: 1px solid #0369a1;
+  padding: 0.125rem 0.375rem;
+  border-radius: 4px;
+  text-decoration: none;
 }
 
 #last-change a:hover {
-  color: #0969da;
+  background-color: #0c4a6e;
+  color: #7dd3fc;
 }

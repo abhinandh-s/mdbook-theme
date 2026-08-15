@@ -9,7 +9,7 @@
   align-items: center;
   text-align: center;
   gap: 8px;
-  font-size: 0.95rem;
+  /* font-size: 0.95rem; */
   color: var(--fg);
   background-color: var(--sidebar-bg);
   padding: 8px 16px;
@@ -28,18 +28,18 @@
   display: inline-flex;
   align-items: center;
   gap: 5px;
-  color: var(--fg);
+  color: var(--links);
   background: var(--bg);
   text-decoration: none;
   font-family: "SF Mono", Consolas, monospace;
-  font-size: 0.85rem;
+  /* font-size: 0.85rem; */
   font-weight: 600;
   padding: 3px 10px;
   border-radius: 999px;
 }
 #last-change a::before {
   content: "⎇";
-  font-size: 0.95rem;
+  /* font-size: 0.95rem; */
 }
 #last-change a:hover {
   background: #000;

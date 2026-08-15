@@ -4,9 +4,10 @@
   margin-top: 28px;
 }
 @media print {
-    .last-change-slot {
-        display: none !important;
-    }
+  .last-change-slot,
+  #last-change {
+    display: none !important;
+  }
 }
 #last-change {
   display: inline-flex;

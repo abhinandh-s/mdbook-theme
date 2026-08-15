@@ -3,7 +3,11 @@
   justify-content: center;
   margin-top: 28px;
 }
-
+@media print {
+    .last-change-slot {
+        display: none !important;
+    }
+}
 #last-change {
   display: inline-flex;
   align-items: center;

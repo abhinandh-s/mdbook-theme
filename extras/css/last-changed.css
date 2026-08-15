@@ -9,7 +9,7 @@
   align-items: center;
   text-align: center;
   gap: 8px;
-  /* font-size: 0.95rem; */
+  font-size: 1rem;
   color: var(--fg);
   background-color: var(--sidebar-bg);
   padding: 8px 16px;
@@ -32,14 +32,14 @@
   background: var(--bg);
   text-decoration: none;
   font-family: "SF Mono", Consolas, monospace;
-  /* font-size: 0.85rem; */
+  font-size: 1rem;
   font-weight: 600;
   padding: 3px 10px;
   border-radius: 999px;
 }
 #last-change a::before {
   content: "⎇";
-  /* font-size: 0.95rem; */
+  font-size: 1rem;
 }
 #last-change a:hover {
   background: #000;
